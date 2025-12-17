@@ -12,5 +12,12 @@ namespace CalculatorApi.Controllers
         {
             return a + b;
         }
+
+
+        [HttpGet("sub")]
+        public int Sub(int a, int b)
+        {
+            return a - b;
+        }
     }
 }
